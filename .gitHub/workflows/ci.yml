@@ -24,7 +24,3 @@ jobs:
 
       - name: Ejecutar Test BQM
         run: npm run test:run
-
-
-
-

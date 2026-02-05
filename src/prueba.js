@@ -1,10 +1,6 @@
 export function divide(a,b){
-    
     if (b === 0) throw new Error("no  se puede divide entre cero")
-       
     return a/b;
-
-
 }
 
 export async function getUsuario() {
