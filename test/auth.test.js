@@ -22,7 +22,7 @@ describe('Pruebas Multiusuario', () => {
     // Al ser una función async, usamos rejects
     await expect(loginLogic('peres@test.com', ''))
       .rejects
-      .toThrow();
+      .toThrow("FALTAN_DATOS");
       
     console.log("[TEST LOG]: Excepción capturada correctamente");
   });
