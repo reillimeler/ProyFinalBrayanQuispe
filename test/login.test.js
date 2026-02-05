@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { loginLogic } from '../src/auth.js';
+import { loginLogic } from '../src/login.js';
 
 describe('Pruebas Multiusuario', () => {
 
@@ -7,7 +7,7 @@ describe('Pruebas Multiusuario', () => {
   it.each([
     ['admin@test.com', 'admin123', 'Administrador'],
     ['juan@test.com', 'user456', 'Usuario Final'],
-    ['ana@test.com', 'password789', 'Editor'],
+    ['ana@test.com', 'password789', 'Editor'], 
     //['peres@test.com', 'sop123','soporte']
 
   ])('Debería loguear correctamente al usuario: %s', async (email, pass, expectedRole) => {
