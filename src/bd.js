@@ -11,6 +11,6 @@ export const findUserByEmail = async (email) => {
     setTimeout(() => {
       const user = users.find(u => u.email === email);
       resolve(user || null);
-    },100); // Simulación de retraso
+    },100);
   });
 };
