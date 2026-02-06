@@ -17,7 +17,7 @@ describe('Pruebas Multiusuario', () => {
     expect(result.user.name).toBe(expectedRole);
     
   });
-  // CASO DE ERROR (Excepción)
+  // Excepción
   it('Debería capturar el THROW cuando falta la contraseña', async () => {
     // Al ser una función async, usamos rejects
     await expect(loginLogic('peres@test.com', ''))

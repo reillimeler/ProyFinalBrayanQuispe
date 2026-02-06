@@ -1,4 +1,4 @@
-// db.js
+
 const users = [
   { id: 1, email: 'admin@test.com', password: 'admin123', role: 'Administrador' },
   { id: 2, email: 'juan@test.com', password: 'user456', role: 'Usuario Final' },

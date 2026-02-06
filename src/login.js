@@ -1,6 +1,5 @@
 import { findUserByEmail } from './bd';
 
-
 export const loginLogic = async (email, password) => {
   // Mostramos qué datos están intentando entrar
   console.log(`\n[LOG]: Intento de login para: ${email}`);
